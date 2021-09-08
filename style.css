@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #222;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;
 }
 
 .card {
@@ -30,17 +31,35 @@ button {
     margin: 0.5em;
     border-radius: 50%;
     border: none;
-    height: 2.5em;
-    width: 2.5em;
+    height: 44px;
+    width: 44px;
     outline: none;
-    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    color: black;
+    background: white;
 }
 
 .searchBar {
     border: none;
     outline: none;
-    padding: 0.8em;
-    border-radius: 18px;
+    padding: 0.4em 1em;
+    border-radius: 24px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+
+h1.temperature {
+    margin: 0;
 }
