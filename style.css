@@ -21,6 +21,10 @@ body {
     margin: 1em;
 }
 
+.weather.loading {
+    visibility: hidden;
+}
+
 .search {
     display: flex;
     align-items: center;
