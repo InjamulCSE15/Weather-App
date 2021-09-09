@@ -89,3 +89,7 @@ h1.temperature {
     text-transform: capitalize;
     margin-left: 8px;
 }
+
+h5 {
+    text-align: center;
+}
